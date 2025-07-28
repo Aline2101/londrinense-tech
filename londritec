@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>App de Cosméticos</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff7fa; margin: 0; }
+    header { background: #e75480; color: #fff; padding: 1rem; text-align: center; }
+    .produtos { display: flex; gap: 1rem; justify-content: center; margin: 2rem 0; }
+    .produto { background: #fff; border-radius: 8px; padding: 1rem; width: 180px; box-shadow: 0 2px 6px #e7548033; text-align: center; }
+    .produto img { width: 100%; border-radius: 4px; }
+    .produto h3 { margin: 1rem 0 0.5rem 0; color: #e75480; }
+    .produto button { background: #e75480; color: #fff; border: none; border-radius: 4px; padding: 0.5rem 1rem; cursor: pointer; }
+    footer { background: #e75480; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>App de Cosméticos</h1>
+  </header>
+  <div class="produtos">
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Batom">
+      <h3>Batom Matte</h3>
+      <p>R$ 39,90</p>
+      <button>Adicionar</button>
+    </div>
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Base">
+      <h3>Base Líquida</h3>
+      <p>R$ 59,90</p>
+      <button>Adicionar</button>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 App de Cosméticos
+  </footer>
+</body>
+</html>
