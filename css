@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e3f2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.container, .weather-card, .forecast {
+  background: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  min-width: 300px;
+  text-align: center;
+}
+input, button {
+  padding: 0.7em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+  border: 1px solid #b3c6e0;
+}
+button, .botao-link {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.7em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 1em;
+}
+button:hover, .botao-link:hover {
+  background: #1565c0;
+}
+.temp {
+  font-size: 2em;
+  font-weight: bold;
+  color: #1976d2;
+}
+.description {
+  font-size: 1.1em;
+  margin: 0.5em 0;
+}
+.city {
+  font-size: 1.1em;
+  color: #333;
+}
+.icon {
+  width: 50px;
+}
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.date {
+  font-weight: bold;
+}
