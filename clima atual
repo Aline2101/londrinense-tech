@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Clima Fácil - Clima Atual</title>
+  <link rel="stylesheet" href="estilos-clima.css">
+</head>
+<body>
+  <div class="weather-card">
+    <h2>Clima Atual</h2>
+    <div class="city">São Paulo, SP</div>
+    <img src="https://openweathermap.org/img/wn/01d.png" alt="Ícone do clima" class="icon">
+    <div class="temp">27°C</div>
+    <div class="description">Ensolarado</div>
+    <div>Umidade: 45% | Vento: 9 km/h</div>
+    <a href="3-previsao-dias.html" class="botao-link">Ver previsão</a>
+  </div>
+</body>
+</html>
