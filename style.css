@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e3f2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+}
+
+input, button {
+  padding: 0.7em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+  border: 1px solid #b3c6e0;
+}
+button, .botao-link {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.7em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 1em;
+}
+button:hover, .botao-link:hover {
+  background: #1565c0;
+}
+
+
+
